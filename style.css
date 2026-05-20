@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.container {
+    display: flex;
+}
+
+section.container form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    font-family: cursive;
+}
+
+section.container form span {
+    display: flex;
+    flex-direction: column;
+}
+
+section.container form input {
+
+    font-size: 15px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #a6a5a5;
+    color: #5e5a5a;
+    font-family: cursive;
+}
+
+section.container form label {
+    font-size: 15px;
+}
+
+section.container form .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+section.container form button {
+
+    padding: 5px 20px;
+    background: #dcdcdc;
+    font-family: cursive;
+}
+
+button:focus {
+    background-color: #9ac18a;
+}
+
+
+section.cards_Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.cards_Container .card {
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+    border: 2px solid darkgray;
+    width: 15%;
+    align-items: center;
+}
+
+section.cards_Container .card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#remove-btn {
+    padding: 5px 10px;
+    background: crimson;
+
+}
+
+
+#id_field {
+
+    gap: 15px;
+    flex-direction: column;
+    display: none;
+}
+
